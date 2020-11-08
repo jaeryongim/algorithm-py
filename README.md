@@ -8,3 +8,5 @@
 4. 가장 흔한 단어(most_common_word)
 5. 그룹 애너그램(group_anagrams)
 6. 가장긴 팰린드롬 문자열 출력(longest palindrome)
+7. 두수의 합(two_sum) / brute_force, in operator, key query
+    
