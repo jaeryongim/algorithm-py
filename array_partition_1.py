@@ -7,7 +7,8 @@ input  -> [1, 4, 3, 2]
 output -> 4
 
 키 포인트
-1.
+n은 2가 되며, 최대 합은 4이다.
+min(1, 2) + min(3, 4) = 4
 """
 from typing import List
 
