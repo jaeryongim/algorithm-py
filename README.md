@@ -11,4 +11,5 @@
 7. 두수의 합(two_sum) / brute_force, in operator, key query
 8. 빗물 트래핑(trapping_rain_water)
 9. 세수의 합(three_sum)
+10. 배열 파티션 I(array_partition_1)
     

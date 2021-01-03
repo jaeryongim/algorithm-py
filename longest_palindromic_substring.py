@@ -7,6 +7,7 @@ Example)
 출력 -> "bab" or "aba"
 """
 
+
 def longest_palindromic(s: str):
     def expand(left: int, right: int) -> str:
         while left >= 0 and right <= len(s) and s[left] == s[right - 1]:

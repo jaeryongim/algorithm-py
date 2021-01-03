@@ -20,6 +20,7 @@ from typing import List
 
 inputs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
+
 def group_anagrams(strs: List[str]) -> List[List[str]]:
     anagrams = collections.defaultdict(list)
     for word in strs:
