@@ -13,11 +13,8 @@ output  ->  true
 import collections
 from typing import List, Deque
 
+from list_node import ListNode
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
 
 def palindrome_linkedlist(head: ListNode) -> bool:
     q: List = []
@@ -60,7 +57,6 @@ def palindrome_runner(head: ListNode) -> bool:
     slow = fast = head
 
     while fast and fast.next:
-        print(fast.val)
         fast = fast.next.next
         rev, rev.next, slow = slow, rev, slow.next
 
