@@ -18,3 +18,7 @@
 14. 두 정렬 리스트의 병합(merge_two_sorted_lists)
 15. 역순 연결 리스트(reverse_linked_list)
 16. 두 수의 덧셈(add_two_numbers)
+17. 페어의 노드 스왑(swap_nodes_in_pairs)
+
+## 알고리즘 풀이
+1. greedy_practice
