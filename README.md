@@ -21,4 +21,5 @@
 17. 페어의 노드 스왑(swap_nodes_in_pairs)
 
 ## 알고리즘 풀이
-1. greedy_practice
+1. 곱하기 혹은 더하기 (greedy)
+2. 모험가 길드 (greedy)
