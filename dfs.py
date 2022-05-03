@@ -8,7 +8,6 @@ for _ in range(m):
     matrix[x][y] = matrix[y][x] = 1
 
 visited = [False] * (n + 1)
-print(visited)
 
 def dfs(graph, start):
     visited[start] = True
@@ -19,6 +18,3 @@ def dfs(graph, start):
 
 
 dfs(matrix, v)
-print(visited)
-
-
