@@ -4,7 +4,7 @@ https://leetcode.com/problems/reverse-linked-list/
 입력 -> 1 -> 2 -> 3 -> 4 -> 5 -> NULL
 출력 -> 5 -> 4 -> 3 -> 2 -> 1 -> NULL
 """
-from list_node import ListNode
+from python_algorithm_interview.list_node import ListNode
 
 
 def reverse_list_recursion(head: ListNode) -> ListNode:

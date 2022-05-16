@@ -6,7 +6,7 @@ example)
 input  -> 1 -> 2 -> 3 -> 4
 output -> 2 -> 1 -> 4 -> 3
 """
-from list_node import ListNode
+from python_algorithm_interview.list_node import ListNode
 
 
 # 단순 값의 교환
