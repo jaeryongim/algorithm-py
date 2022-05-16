@@ -4,7 +4,6 @@ matrix = [[i for i in (map(int, sys.stdin.readline().rstrip()))] for _ in range(
 
 visited = [[0] * n for _ in range(n)]
 cnt = 1
-arr = []
 d = dict()
 
 def dfs(i, j):
