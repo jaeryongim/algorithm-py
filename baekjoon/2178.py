@@ -1,3 +1,8 @@
+"""
+미로 탐색
+https://www.acmicpc.net/problem/2178
+"""
+
 import sys
 from collections import deque
 

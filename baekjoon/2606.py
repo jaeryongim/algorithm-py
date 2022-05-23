@@ -1,6 +1,6 @@
 """
-title: 바이러스(2606)
-link: https://www.acmicpc.net/problem/2606
+바이러스
+https://www.acmicpc.net/problem/2606
 """
 import sys
 from collections import deque

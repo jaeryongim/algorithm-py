@@ -1,3 +1,8 @@
+"""
+단지번호 붙이기
+https://www.acmicpc.net/problem/2667
+"""
+
 import sys
 n = int(sys.stdin.readline())
 matrix = [[i for i in (map(int, sys.stdin.readline().rstrip()))] for _ in range(n)]

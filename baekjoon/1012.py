@@ -1,3 +1,8 @@
+"""
+유기농 배추
+https://www.acmicpc.net/problem/1012
+"""
+
 import sys
 from collections import deque
 
