@@ -23,14 +23,13 @@ class Solution:
 
         return flag
 
-    def is_palindrome_2(strs) -> bool:
+    def is_palindrome_2(self, strs) -> bool:
         # 풀이2
         d = deque()
         for c in strs:
             if c.isalnum():
                 d.append(c.lower())
 
-        print(d[::-1])
         while len(d) > 1:
             if d.popleft() != d.pop():
                 return False
